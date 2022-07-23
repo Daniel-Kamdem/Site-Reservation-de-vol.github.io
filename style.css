@@ -1,0 +1,166 @@
+Raw
+styles.css
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #fffffe;
+    margin: 20px 0 0 0;
+    color: #fffffb;
+}
+
+header {
+    background: url(image/IMG-4495.jpg) 100% fixed;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+h1.titre {
+    font-size: 100px;
+    margin-top: 140px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:#EF8F1D;
+}
+
+h3.slogan {
+    font-size: 35px;
+    font-style: arial ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+}
+
+/* Destinations */
+
+section#destinations {
+    margin: 0px 20% 0 20%;
+}
+
+section#destinations h3 {
+    padding-top: 50px;
+    opacity: 0.5;
+    color: #fff8f8;
+}
+
+div.destination-item {
+    color: #ffffff;
+    height: 300px;
+    margin: 15px;
+    position: relative;
+    flex: 1 0 29%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.destination-item:hover {
+    transform: scale(0.98);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s all;
+}
+
+div.destinations-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.barcelone { background: url(image/IMG-4499.jpg); }
+.dubai { background: url(image/IMG-4501.JPG); }
+.londres { background: url(image/IMG-4503.JPG); }
+.paris { background: url(image/IMG-4498.JPG); }
+.philippines { background: url(IMG-4500.JPG); }
+.tunis { background: url(image/IMG-4502.JPG); }
+
+.overlay { 
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+span.nom {
+    position: relative;
+    color: #373737;
+    background-color: #DBDBD9;
+    top: 20px;
+    float: right;
+    padding: 12px;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+span.prix {
+    position: relative;
+    color: #fff;
+    background-color: #EF8F1D;
+    padding: 12px;
+    font-size: 25px;
+    top: 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Formulaire de recherche */
+
+header form {
+    background-color: #EF8F1D;
+    padding: 20px;
+}
+
+.search-form {
+    transform: translateY(75px);
+}
+
+.form-group {
+    color: #fffefe;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.form-group input, select, option{
+    border: none;
+    padding: 5px;
+    background-color: bisque;
+}
+
+.form-group label {
+    margin: 5px;
+    padding: 10px;
+}
+
+.button-submit{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.button-submit input {
+    background-color: #d8def9;
+    border: none;
+    color: #f97b06;
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+/* Pied de page */
+
+footer p {
+    text-align: center;
+    color: #373737;
+    padding: 10px;
+}
+
